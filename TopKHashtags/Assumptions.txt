@@ -1,0 +1,13 @@
+1)Input values of K and Window size are dynamic and depends on the user.
+
+2)The window size is in terms of tweets. For eg: window size of 100 means the sliding window is of 100 tweets and the output of top K hashtags will be generated after every 100 tweets.
+
+3)Tweets with no hashtags have been discarded i.e tweets with atleast one hashtag is considered.
+
+4)Only tweets in English Language are being sampled and taken into consideration.
+
+5)At the initial execution of the program, the output of top K hashtags is generated only when tweet count reaches the window size and continues.
+
+6)If the user enters any invalid inputs(i.e negative nummbers, characters or alphabets) as input values for K and window size an error message will appear displaying that input should be only in numeric form and greater than zero
+
+7)After the user enters the input and starts streaming he is not allowed to change the input until he presses the stop button.
