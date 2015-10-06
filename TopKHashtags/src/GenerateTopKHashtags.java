@@ -44,8 +44,8 @@ public final class GenerateTopKHashtags {
 	
     public void SetStream(final JTextField f,final JTextArea j,final int k,final int wsize) {
     	twitterStream = new TwitterStreamFactory().getInstance();
-        twitterStream.setOAuthConsumer("rlOa4OjEY81fzv4OAVWVr6UrK", "R1XKh3fssdcR3FLKFl3sjdeMP3DXyjTLUZYtpWrO3lg1wTtVDi");
-        twitterStream.setOAuthAccessToken(new AccessToken("612848364-HBf41XiOYArkKnysU6WWTBBlkqWcFjyUSTsEhRIJ", "usiwIXxu1xuUtHEDjWhQpk7qgJwQp7VBg8EqqBVqyTyX3"));
+        twitterStream.setOAuthConsumer("XXXXXX", "XXXXXXX");
+        twitterStream.setOAuthAccessToken(new AccessToken("XXXXXXX", "XXXXXXXXXXXXXXXX"));
        
        
        StatusListener listener = new StatusListener() {
